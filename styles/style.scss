@@ -1,0 +1,98 @@
+$color-red: #DC143C;
+$color-green: #00FF00;
+$color-black: #000000;
+$color-blue: #0000ff;
+$color-grey: #C0C0C0;
+$color-white: #FFFFFF;
+$color-purple: #81007F;
+$color-orange: #F8A805;
+
+// Exercise 1
+.content {
+  width:800px;
+  margin: 0 auto;
+
+  h3 {
+    font-weight: 100;
+  }
+  h4 {
+    font-weight: 100;
+  }
+}
+
+// Exercise 2
+
+
+.exercise-2-wrapper {
+  .exercise-figure-1 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid $color-orange;
+    background-color: $color-purple;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .exercise-figure-2 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid $color-orange;
+    background-color: $color-purple;
+    border-radius: 30%;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .exercise-figure-3 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid $color-orange;
+    background-color: $color-purple;
+    border-radius: 100%;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .exercise-figure-4 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid $color-orange;
+    background-color: $color-purple;
+    border-radius: 20% 0 20% 0;
+    float: left;
+    margin-left: 10px;
+  }
+}
+
+// Exercise 3
+.exercise-3-wrapper {
+
+  table {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  table, th, td {
+    border: 1px solid $color-black;
+    border-collapse: collapse;
+
+  }
+  td {
+    text-align: center;
+  }
+
+  .color-red {
+    color: $color-red;
+    font-weight: bold;
+  }
+
+  .color-green {
+    color: $color-green;
+  }
+}

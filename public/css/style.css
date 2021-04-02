@@ -1,0 +1,71 @@
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+.content h3 {
+  font-weight: 100;
+}
+.content h4 {
+  font-weight: 100;
+}
+
+.exercise-2-wrapper .exercise-figure-1 {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #F8A805;
+  background-color: #81007F;
+  border-radius: 5px;
+  float: left;
+  margin-left: 10px;
+}
+.exercise-2-wrapper .exercise-figure-2 {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #F8A805;
+  background-color: #81007F;
+  border-radius: 30%;
+  float: left;
+  margin-left: 10px;
+}
+.exercise-2-wrapper .exercise-figure-3 {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #F8A805;
+  background-color: #81007F;
+  border-radius: 100%;
+  float: left;
+  margin-left: 10px;
+}
+.exercise-2-wrapper .exercise-figure-4 {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #F8A805;
+  background-color: #81007F;
+  border-radius: 20% 0 20% 0;
+  float: left;
+  margin-left: 10px;
+}
+
+.exercise-3-wrapper table {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+}
+.exercise-3-wrapper img {
+  width: 100px;
+  height: 100px;
+}
+.exercise-3-wrapper table, .exercise-3-wrapper th, .exercise-3-wrapper td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+.exercise-3-wrapper td {
+  text-align: center;
+}
+.exercise-3-wrapper .color-red {
+  color: #DC143C;
+  font-weight: bold;
+}
+.exercise-3-wrapper .color-green {
+  color: #00FF00;
+}
